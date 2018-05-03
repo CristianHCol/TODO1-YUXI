@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}} by {{author}}!
+  </h1>
+  <app-my-component></app-my-component>
+  <button (click)="count = count + 1">{{count}}</button>
+  <button (click)="isDisabled = !isDisabled" [disabled]="isDisabled">click me</button>
+  <img width="300" [src]="imgSource">
+</div>
+
